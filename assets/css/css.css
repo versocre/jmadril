@@ -16,7 +16,7 @@ background-image: url(../images/default_banner.png);
     font-weight: 600;
 }
 
-.buttons {
+.newbuttons {
     display: inline-block;
     padding: 12px 30px;
     transition: all 0.2s;
@@ -31,6 +31,6 @@ background-image: url(../images/default_banner.png);
     margin-bottom: 2vh;
 }
 
-.buttons:hover {
+.newbuttons:hover {
     border-radius: 2.5vh;
 }
