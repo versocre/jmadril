@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: white;
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.26);
+    color: var(--text);
+    background-color: var(--bg);
 }
 .jm {
 background-image: url(../images/default_banner.png);
@@ -20,10 +20,10 @@ background-image: url(../images/default_banner.png);
     display: inline-block;
     padding: 12px 30px;
     transition: all 0.2s;
-    border: 2px solid white;
+    border: 2px solid var(--buttonbor);
     border-radius: 1.5vh;
     text-decoration: none;
-    color: white;
+    color: var(--cardtex);
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.288);
     font-weight: 600;
     text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.288);
@@ -34,3 +34,57 @@ background-image: url(../images/default_banner.png);
 .newbuttons:hover {
     border-radius: 2.5vh;
 }
+
+.shad {
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.26);
+}
+
+a:visited:not([href]),
+a:hover:not([href]),
+a:active:not([href]) {
+    color: inherit;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    border: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: calc(100% - 60px);
+    display: block;
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 95%;
+    }
+}
+
+.card {
+    padding: 2vh;
+    background-color: var(--cards);
+    color: var(--cardtex);
+    border-radius: 1.5vh;
+ }
+
+ .lights {
+     color: white;
+ }
+
+ .secondary {
+     color: var(--secondarytext);
+ }
+
+ .secon-card {
+    color: var(--cardsecondary);
+ }
+ 
+ .trans {
+    background: var(--blurbg);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+ }
