@@ -7,6 +7,7 @@
     --blurbg: rgba(255, 255, 255, 0.411);
     --buttonbor: #333333;
     --cardsecondary: #6d6d6d;
+    --nav: rgb(197, 197, 197);
 }
 
 @media (prefers-color-scheme: dark) { 
@@ -19,6 +20,7 @@
     --blurbg: rgba(0, 0, 0, 0.411);
     --buttonbor: white;
     --cardsecondary: #ffffff;
+    --nav: rgb(41, 41, 41);
     }
 }
 
@@ -32,5 +34,6 @@
         --cardsecondary: #6d6d6d;
         --blurbg: rgba(255, 255, 255, 0.411);
         --buttonbor: #333333;
+        --nav: rgb(197, 197, 197);
     }
 }
