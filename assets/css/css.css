@@ -299,7 +299,12 @@ p {
  text-align: right;
 }
 
-@media only screen and (max-width: 700px) {
+.landphoto {
+    border-radius: 2vh; 
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 728px) {
     .banim {
         display: none;
     }
